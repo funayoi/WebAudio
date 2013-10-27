@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>WebAudio: Oscillator</title>
+    <script type="text/javascript" src="oscillator.js"></script>
+  </head>
+
+  <body>
+    <h1>WebAudio: Oscillator</h1>
+    <table>
+      <tr>
+        <td></td>
+        <td>
+          <button id="play">Play</button>
+          <button id="stop">Stop</button>
+        </td>
+      </tr>
+      <tr>
+        <td>波形 waveform type</td>
+        <td>
+          <select id="oscillator_type">
+            <option value="sine">正弦波 sine</option>
+            <option value="square">矩形波 square</option>
+            <option value="sawtooth">のこぎり波 sawtooth</option>
+            <option value="triangle">三角波 triangle</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>周波数 frequency</td>
+        <td>
+          <input type="range" id="oscillator_frequency" min="10" max="2000" step="10" value="440">
+          <span id="oscillator_frequency_value">440</span> Hz
+        </td>
+      </tr>
+      <tr>
+        <td>音量 gain</td>
+        <td>
+          <input type="range" id="gain_value" min="0.00" max="1.00" step="0.01" value="1.00">
+        </td>
+      </tr>
+    </table>
+
+  </body>
+</html>
