@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>WebAudio: Analyser</title>
+    <script type="text/javascript" src="analyser.js"></script>
+  </head>
+
+  <body>
+    <h1>WebAudio: Analyser</h1>
+
+    Open file: <input id="open" type="file" accept="audio/*">
+    <br>
+    <button id="play" disabled>Play</button>
+    <button id="stop" disabled>Stop</button>
+
+    <h2>Spectrum</h2>
+    <canvas id="frequency" width="768" height="256" style="display: block; border: solid 1px red;"></canvas>
+    <h2>Waveform</h2>
+    <canvas id="waveform" width="768" height="256" style="display: block; border: solid 1px red;"></canvas>
+   </body>
+</html>
