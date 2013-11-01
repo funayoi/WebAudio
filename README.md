@@ -22,3 +22,11 @@ This example uses AnalyserNode.
 
 * [Demo page](http://funayoi.github.io/WebAudio/analyser.html)
 
+### UserMedia
+
+マイクからの入力を扱う例です。
+
+This example uses microphone.
+
+* [Demo page](http://funayoi.github.io/WebAudio/usermedia.html)
+
